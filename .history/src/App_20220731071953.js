@@ -6,8 +6,8 @@ import Grid from "@mui/material/Grid";
 import ProfilePhoto from "./images/header/profile-photo.png";
 import LinkedinLogo from "./images/header/linkedin-logo.png";
 import GithubLogo from "./images/header/github-logo.png";
-import ExperienceLogo from "./images/about-me/experience.png";
-import AchievementsLogo from "./images/about-me/achievements.png";
+import ExperienceLogo from "./images/header/experience.png";
+import AchievementsLogo from "./images/header/achievements.png";
 
 import Laptop from "./images/about-me/laptop.gif";
 import Tools from "./images/about-me/tools.gif";
@@ -85,23 +85,22 @@ function App() {
             <Grid item xs={12} md={4}>
               <div className="about-me-left">
                 <div className="details-content">
-                  <h1>About me!</h1>
+                <h1>About me!</h1>
                   <img
                     src={ProfilePhoto}
                     className="profile-photo"
                     alt="Profile Photo"
                   />
                   <p>Conjoint Engineering (honours) & Commerce at UoA</p>
-                  <p>Software Engineering | Finance | Accounting</p>
-                  <hr/>
+                  <p>Software Engineerng | Finance | Accounting</p>
                   <img
                     src={ExperienceLogo}
-                    className=""
+                    className="profile-photo"
                     alt="Experience Logo"
                   />
-                  <img
+                                    <img
                     src={AchievementsLogo}
-                    className=""
+                    className="profile-photo"
                     alt="Achievements Logo"
                   />
                 </div>
@@ -110,7 +109,11 @@ function App() {
             <Grid item xs={12} md={8}>
               <div className="about-me-right">
                 <div className="skills-content">
-                  <img src={Laptop} className="profile-photo" alt="Laptop" />
+                <img
+                src={Laptop}
+                className="profile-photo"
+                alt="Laptop"
+              />
                   <h2>Technologies</h2>
                   <p>React | Next.js | HTML | JS | CSS</p>
                   <p>
@@ -119,12 +122,13 @@ function App() {
                   </p>
                   <p>Node.js | Express.js | MySQL | MongoDB</p>
                   <p>Python | Java</p>
-                  <img src={Tools} className="profile-photo" alt="Tools" />
+                  <img
+                src={Tools}
+                className="profile-photo"
+                alt="Tools"
+              />
                   <h2>Other skills / tools</h2>
-                  <p>
-                    UI/UX Design | Sketching | Graphic Design | Responsive
-                    Design
-                  </p>
+                  <p>UI/UX Design | Sketching | Graphic Design | Responsive Design</p>
                   <p>Figma | Miro | Jira | Asana | Notion | LaTeX</p>
                 </div>
 
@@ -144,7 +148,6 @@ function App() {
 
       <section id="projects-section" className="full-section">
         <div>
-        <h1>Projects</h1>
           <Grid container spacing={2}>
             <Grid item xs={6} md={8}></Grid>
             <Grid item xs={6} md={4}></Grid>
@@ -156,7 +159,7 @@ function App() {
 
       <section id="contact-section" className="full-section">
         <div>
-          <h1>Contact me!</h1>
+          {" "}
           <Grid container spacing={2}>
             <Grid item xs={6} md={8}></Grid>
             <Grid item xs={6} md={4}></Grid>

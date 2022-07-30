@@ -92,11 +92,10 @@ function App() {
                     alt="Profile Photo"
                   />
                   <p>Conjoint Engineering (honours) & Commerce at UoA</p>
-                  <p>Software Engineering | Finance | Accounting</p>
-                  <hr/>
+                  <p>Software Engineerng | Finance | Accounting</p>
                   <img
                     src={ExperienceLogo}
-                    className=""
+                    className="profile-photo"
                     alt="Experience Logo"
                   />
                   <img
@@ -110,7 +109,7 @@ function App() {
             <Grid item xs={12} md={8}>
               <div className="about-me-right">
                 <div className="skills-content">
-                  <img src={Laptop} className="profile-photo" alt="Laptop" />
+                  <img src={Laptop} className="" alt="Laptop" />
                   <h2>Technologies</h2>
                   <p>React | Next.js | HTML | JS | CSS</p>
                   <p>
@@ -144,7 +143,6 @@ function App() {
 
       <section id="projects-section" className="full-section">
         <div>
-        <h1>Projects</h1>
           <Grid container spacing={2}>
             <Grid item xs={6} md={8}></Grid>
             <Grid item xs={6} md={4}></Grid>
@@ -156,7 +154,7 @@ function App() {
 
       <section id="contact-section" className="full-section">
         <div>
-          <h1>Contact me!</h1>
+          {" "}
           <Grid container spacing={2}>
             <Grid item xs={6} md={8}></Grid>
             <Grid item xs={6} md={4}></Grid>

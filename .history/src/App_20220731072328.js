@@ -156,7 +156,7 @@ function App() {
 
       <section id="contact-section" className="full-section">
         <div>
-          <h1>Contact me!</h1>
+          {" "}
           <Grid container spacing={2}>
             <Grid item xs={6} md={8}></Grid>
             <Grid item xs={6} md={4}></Grid>
