@@ -26,7 +26,7 @@ function App() {
               />
             </Grid>
             <Grid item xs={12} md={12}>
-              <h2>Hey there, I'm Lucy Zhu.</h2>
+              <h2>Hey there, I'm Lucy Zhu. I'm a capricorn.</h2>
             </Grid>
             <Grid item xs={12} md={12}>
               <a href="https://www.linkedin.com/in/lucyzhu613/">
@@ -94,16 +94,16 @@ function App() {
                   <p>Conjoint Engineering (honours) & Commerce at UoA</p>
                   <p>Software Engineering | Finance | Accounting</p>
                   <hr/>
-                  <p>Currently, most of my work is in frontend or full-stack development.</p>
+                  <p>Interested in...</p>
                   <hr/>
                   <img
                     src={ExperienceLogo}
-                    className="about-me-logo"
+                    className=""
                     alt="Experience Logo"
                   />
                   <img
                     src={AchievementsLogo}
-                    className="about-me-logo"
+                    className=""
                     alt="Achievements Logo"
                   />
                 </div>
@@ -114,7 +114,7 @@ function App() {
                 <div className="skills-content">
                   <img src={Laptop} className="laptop-gif" alt="Laptop" />
                   <h2>Technologies</h2>
-                  <p>React | Next.js | HTML | Javascript | CSS</p>
+                  <p>React | Next.js | HTML | JS | CSS</p>
                   <p>
                     Bootstrap | Material UI | Tailwind CSS | Chakra UI | Ant
                     Design
@@ -125,7 +125,7 @@ function App() {
                   <img src={Tools} className="tools-gif" alt="Tools" />
                   <h2>Other skills / tools</h2>
                   <p>
-                    UI / UX Design | Traditional / Digital Art | Graphic Design | Responsive
+                    UI/UX Design | Sketching | Graphic Design | Responsive
                     Design
                   </p>
                   <p>Figma | Miro | Jira | Asana | Notion | LaTeX</p>

@@ -26,7 +26,7 @@ function App() {
               />
             </Grid>
             <Grid item xs={12} md={12}>
-              <h2>Hey there, I'm Lucy Zhu.</h2>
+              <h2>Hey there, I'm Lucy Zhu. I'm a capricorn.</h2>
             </Grid>
             <Grid item xs={12} md={12}>
               <a href="https://www.linkedin.com/in/lucyzhu613/">
@@ -94,16 +94,16 @@ function App() {
                   <p>Conjoint Engineering (honours) & Commerce at UoA</p>
                   <p>Software Engineering | Finance | Accounting</p>
                   <hr/>
-                  <p>Currently, most of my work is in frontend or full-stack development.</p>
+                  <p>Currently, most my work is in frontend or full-stack development.</p>
                   <hr/>
                   <img
                     src={ExperienceLogo}
-                    className="about-me-logo"
+                    className=""
                     alt="Experience Logo"
                   />
                   <img
                     src={AchievementsLogo}
-                    className="about-me-logo"
+                    className=""
                     alt="Achievements Logo"
                   />
                 </div>

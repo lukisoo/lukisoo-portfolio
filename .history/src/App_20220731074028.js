@@ -26,7 +26,7 @@ function App() {
               />
             </Grid>
             <Grid item xs={12} md={12}>
-              <h2>Hey there, I'm Lucy Zhu.</h2>
+              <h2>Hey there, I'm Lucy Zhu. I'm a capricorn.</h2>
             </Grid>
             <Grid item xs={12} md={12}>
               <a href="https://www.linkedin.com/in/lucyzhu613/">
