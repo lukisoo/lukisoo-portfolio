@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/lukisoo-personal-portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/lukisoo-personal-portfolio/static/js/main.b20fc714.js",
+    "static/js/787.ed16ea09.chunk.js": "/lukisoo-personal-portfolio/static/js/787.ed16ea09.chunk.js",
+    "static/media/logo.svg": "/lukisoo-personal-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/lukisoo-personal-portfolio/index.html",
+    "main.073c9b0a.css.map": "/lukisoo-personal-portfolio/static/css/main.073c9b0a.css.map",
+    "main.b20fc714.js.map": "/lukisoo-personal-portfolio/static/js/main.b20fc714.js.map",
+    "787.ed16ea09.chunk.js.map": "/lukisoo-personal-portfolio/static/js/787.ed16ea09.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.b20fc714.js"
+  ]
+}
