@@ -1,7 +1,7 @@
 import "./App.css";
 
 import { Link } from "react-router-dom";
-import { Tooltip, Grid } from "@mui/material";
+import { Tooltip, Grid } from '@mui/material';
 
 import ProfilePhoto from "./images/header/profile-photo.png";
 import LinkedinLogo from "./images/header/linkedin-logo.png";
@@ -19,9 +19,6 @@ function App() {
         <div className="header-content">
           <Grid container spacing={3}>
             <Grid item xs={12} md={12}>
-            <div>
-              
-            </div>
               <img
                 src={ProfilePhoto}
                 className="profile-photo"
@@ -32,24 +29,21 @@ function App() {
               <h2>Hey there, I'm Lucy Zhu.</h2>
             </Grid>
             <Grid item xs={12} md={12}>
-              <Tooltip title="LinkedIn">
-                <a href="https://www.linkedin.com/in/lucyzhu613/">
-                  <img
-                    src={LinkedinLogo}
-                    className="social-logo"
-                    alt="Linkedin Logo"
-                  />
-                </a>
-              </Tooltip>
-              <Tooltip title="Github">
-                <a href="https://github.com/lukisoo">
-                  <img
-                    src={GithubLogo}
-                    className="social-logo"
-                    alt="Github Logo"
-                  />
-                </a>
-              </Tooltip>
+              <a href="https://www.linkedin.com/in/lucyzhu613/">
+                {" "}
+                <img
+                  src={LinkedinLogo}
+                  className="social-logo"
+                  alt="Linkedin Logo"
+                />
+              </a>
+              <a href="https://github.com/lukisoo">
+                <img
+                  src={GithubLogo}
+                  className="social-logo"
+                  alt="Github Logo"
+                />
+              </a>
             </Grid>
             <Grid item xs={12} md={12}>
               <hr className="header-divider" />
@@ -107,20 +101,16 @@ function App() {
                   <hr />
                   <h3>Find out more:</h3>
                   <div className="about-me-logo-section">
-                    <Tooltip title="Experience">
-                      <img
-                        src={ExperienceLogo}
-                        className="about-me-logo"
-                        alt="Experience Logo"
-                      />
-                    </Tooltip>
-                    <Tooltip title="Achievements">
-                      <img
-                        src={AchievementsLogo}
-                        className="about-me-logo"
-                        alt="Achievements Logo"
-                      />
-                    </Tooltip>
+                    <img
+                      src={ExperienceLogo}
+                      className="about-me-logo"
+                      alt="Experience Logo"
+                    />
+                    <img
+                      src={AchievementsLogo}
+                      className="about-me-logo"
+                      alt="Achievements Logo"
+                    />
                   </div>
                 </div>
               </div>
@@ -144,10 +134,7 @@ function App() {
                     UI / UX Design | Traditional / Digital Art | Graphic Design
                     | Responsive Design
                   </p>
-                  <p>
-                    Figma | Miro | Jira | Asana | Notion | Procreate | GIMP |
-                    LaTeX
-                  </p>
+                  <p>Figma | Miro | Jira | Asana | Notion | LaTeX</p>
                 </div>
               </div>
             </Grid>

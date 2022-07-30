@@ -19,9 +19,6 @@ function App() {
         <div className="header-content">
           <Grid container spacing={3}>
             <Grid item xs={12} md={12}>
-            <div>
-              
-            </div>
               <img
                 src={ProfilePhoto}
                 className="profile-photo"

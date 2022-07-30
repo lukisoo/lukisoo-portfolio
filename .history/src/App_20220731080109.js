@@ -19,9 +19,6 @@ function App() {
         <div className="header-content">
           <Grid container spacing={3}>
             <Grid item xs={12} md={12}>
-            <div>
-              
-            </div>
               <img
                 src={ProfilePhoto}
                 className="profile-photo"
@@ -41,7 +38,9 @@ function App() {
                   />
                 </a>
               </Tooltip>
+              "
               <Tooltip title="Github">
+                {" "}
                 <a href="https://github.com/lukisoo">
                   <img
                     src={GithubLogo}
