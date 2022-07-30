@@ -53,7 +53,7 @@ function App() {
               </a>
             </Grid>
             <Grid item xs={12} md={4}>
-              <a href="#projects-section">
+              <a href="#contact-section">
                 <div className="box-1">
                   <div className="btn btn-one">
                     <span>PROJECTS</span>

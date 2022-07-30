@@ -53,22 +53,20 @@ function App() {
               </a>
             </Grid>
             <Grid item xs={12} md={4}>
-              <a href="#projects-section">
-                <div className="box-1">
-                  <div className="btn btn-one">
-                    <span>PROJECTS</span>
-                  </div>
+            <a href="#contact-section"></a>
+              <div className="box-1">
+                <div className="btn btn-one">
+                  <span>PROJECTS</span>
                 </div>
-              </a>
+              </div>
             </Grid>
             <Grid item xs={12} md={4}>
-              <a href="#contact-section">
-                <div className="box-1">
-                  <div className="btn btn-one">
-                    <span>CONTACT</span>
-                  </div>
+            <a href="#contact-section"></a>
+              <div className="box-1">
+                <div className="btn btn-one">
+                  <span>CONTACT</span>
                 </div>
-              </a>
+              </div>
             </Grid>
           </Grid>
         </div>

@@ -44,41 +44,38 @@ function App() {
               <hr className="header-divider" />
             </Grid>
             <Grid item xs={12} md={4}>
-              <a href="#about-me-section">
-                <div className="box-1">
-                  <div className="btn btn-one">
-                    <span>ABOUT ME</span>
-                  </div>
+              <div className="box-1">
+                <div className="btn btn-one">
+                  <span>ABOUT ME</span>
                 </div>
-              </a>
+              </div>
             </Grid>
             <Grid item xs={12} md={4}>
-              <a href="#projects-section">
-                <div className="box-1">
-                  <div className="btn btn-one">
-                    <span>PROJECTS</span>
-                  </div>
+              <div className="box-1">
+                <div className="btn btn-one">
+                  <span>PROJECTS</span>
                 </div>
-              </a>
+              </div>
             </Grid>
             <Grid item xs={12} md={4}>
-              <a href="#contact-section">
-                <div className="box-1">
-                  <div className="btn btn-one">
-                    <span>CONTACT</span>
-                  </div>
+              <div className="box-1">
+                <div className="btn btn-one">
+                  <span>CONTACT</span>
                 </div>
-              </a>
+              </div>
             </Grid>
           </Grid>
         </div>
       </header>
 
-      <section id="about-me-section" className="full-section"></section>
+      <section id="about-me-section">
 
-      <section id="projects-section" className="full-section"></section>
+        
+      </section>
 
-      <section id="contact-section" className="full-section"></section>
+      <section id="projects-section"></section>
+
+      <section id="contact-section"></section>
     </div>
   );
 }
