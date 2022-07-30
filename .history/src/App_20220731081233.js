@@ -16,15 +16,14 @@ function App() {
   return (
     <div className="App">
       <header className="full-section">
-        <div className="header-image">
-          <img
-            src={ProfilePhoto}
-            className="profile-photo"
-            alt="Profile Photo"
-          />
-        </div>
-
         <div className="header-content">
+        <div className="header-image">
+                            <img
+                src={ProfilePhoto}
+                className="profile-photo"
+                alt="Profile Photo"
+              />
+            </div>
           <Grid container spacing={3}>
             <Grid item xs={12} md={12}>
               <h2>Hey there, I'm Lucy Zhu.</h2>

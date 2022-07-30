@@ -87,15 +87,15 @@
   border-width: 2px;
 }
 
-/* .header-image-back {
+.header-image-back {
   background: linear-gradient(180deg, #FBF2EB 50%, #ffffff00 50%);
   width: 100vw;
   height: auto;
-} */
+}
 
 .header-image {
   background: linear-gradient(180deg, #FBF2EB 50%, #ffffff00 50%);
-  border-top: 13vh solid #FBF2EB;
+  margin-top: 13vh;
   width: 100vw;
   height: auto;
 }

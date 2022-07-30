@@ -78,7 +78,7 @@
   width: 60vw;
   height: 70vh;
   margin: 0 auto 0 auto;
-  margin-top: 2vh;
+  margin-top: 15vh;
   /* background-color: red; */
 }
 
@@ -87,15 +87,8 @@
   border-width: 2px;
 }
 
-/* .header-image-back {
-  background: linear-gradient(180deg, #FBF2EB 50%, #ffffff00 50%);
-  width: 100vw;
-  height: auto;
-} */
-
 .header-image {
-  background: linear-gradient(180deg, #FBF2EB 50%, #ffffff00 50%);
-  border-top: 13vh solid #FBF2EB;
+  background: linear-gradient(180deg, #FFC0CB 50%, #ffffff00 50%);
   width: 100vw;
   height: auto;
 }
