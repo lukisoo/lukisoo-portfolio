@@ -99,10 +99,10 @@ function App() {
                   <p>Software Engineering | Finance | Accounting</p>
                   <hr />
                   <p>
-                    <br />
+                  <br/>
                     Currently, most of my work is in frontend or full-stack
                     development.
-                    <br />
+                    <br/>
                   </p>
                   <hr />
                   <h3>Find out more:</h3>
