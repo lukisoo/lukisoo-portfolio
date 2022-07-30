@@ -84,7 +84,7 @@
 /* Header CSS */
 .header-divider {
   color: white;
-  border-width: 2px;
+  height: 2vh;
 }
 
 .profile-photo {
