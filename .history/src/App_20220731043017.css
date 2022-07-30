@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+/* Buttons */
+.box-1 { background-color: #FF6766; }
+
+.btn {
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+	width: 250px;
+	cursor: pointer;
+}

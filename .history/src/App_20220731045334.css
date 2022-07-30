@@ -1,20 +1,14 @@
 .App {
   text-align: center;
-  margin: 0;
 }
 
 /* Section Content */
-.full-section {
-  height: 100vh;
-  width: 100vw;
-}
-
 .section-content {
   width: 60vw;
   height: 70vh;
-  margin: 0 auto 0 auto;
+  margin: auto;
   margin-top: 15vh;
-  /* background-color: red; */
+  background-color: red;
 }
 
 /* Buttons */
@@ -92,12 +86,6 @@
 }
 
 .social-logo {
-  width: 40px;
-  height: auto;
-  padding: 0 1% 0 1%;
-}
-
-.social-logo:hover {
-  opacity: 0.8;
-  cursor: pointer;
+  width: 5vw;
+  height; auto;
 }

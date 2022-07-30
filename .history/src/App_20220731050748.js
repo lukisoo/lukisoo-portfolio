@@ -10,8 +10,9 @@ import GithubLogo from "./images/header/github-logo.png";
 function App() {
   return (
     <div className="App">
-      <header className="full-section">
+      {/* <header className="full-section">
         <div className="section-content">
+          {" "}
           <Grid container spacing={3}>
             <Grid item xs={12} md={12}>
               <img
@@ -44,31 +45,31 @@ function App() {
               <hr className="header-divider" />
             </Grid>
             <Grid item xs={12} md={4}>
-              <div className="box-1">
-                <div className="btn btn-one">
+              <div class="box-1">
+                <div class="btn btn-one">
                   <span>ABOUT ME</span>
                 </div>
               </div>
             </Grid>
             <Grid item xs={12} md={4}>
-              <div className="box-1">
-                <div className="btn btn-one">
+              <div class="box-1">
+                <div class="btn btn-one">
                   <span>PROJECTS</span>
                 </div>
               </div>
             </Grid>
             <Grid item xs={12} md={4}>
-              <div className="box-1">
-                <div className="btn btn-one">
+              <div class="box-1">
+                <div class="btn btn-one">
                   <span>CONTACT</span>
                 </div>
               </div>
             </Grid>
           </Grid>
         </div>
-      </header>
+      </header> */}
 
-      <section id="about-me-section"></section>
+      <section id="about-me-section"><h1>SOIFJODSIFJSODIJFOSIDJFOSDIJFSODIFJSODIFJ</h1></section>
 
       <section id="projects-section"></section>
 

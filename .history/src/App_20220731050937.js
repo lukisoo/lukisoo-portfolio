@@ -10,8 +10,10 @@ import GithubLogo from "./images/header/github-logo.png";
 function App() {
   return (
     <div className="App">
+    <h1>AAA</h1>
       <header className="full-section">
         <div className="section-content">
+        <h1>DIJFODSIJFOSDIFJ</h1>
           <Grid container spacing={3}>
             <Grid item xs={12} md={12}>
               <img

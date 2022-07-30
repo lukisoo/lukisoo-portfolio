@@ -44,22 +44,22 @@ function App() {
               <hr className="header-divider" />
             </Grid>
             <Grid item xs={12} md={4}>
-              <div className="box-1">
-                <div className="btn btn-one">
+              <div class="box-1">
+                <div class="btn btn-one">
                   <span>ABOUT ME</span>
                 </div>
               </div>
             </Grid>
             <Grid item xs={12} md={4}>
-              <div className="box-1">
-                <div className="btn btn-one">
+              <div class="box-1">
+                <div class="btn btn-one">
                   <span>PROJECTS</span>
                 </div>
               </div>
             </Grid>
             <Grid item xs={12} md={4}>
-              <div className="box-1">
-                <div className="btn btn-one">
+              <div class="box-1">
+                <div class="btn btn-one">
                   <span>CONTACT</span>
                 </div>
               </div>

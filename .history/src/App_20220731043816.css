@@ -1,27 +1,19 @@
 .App {
   text-align: center;
-  margin: 0;
 }
 
 /* Section Content */
-.full-section {
-  height: 100vh;
-  width: 100vw;
-}
-
 .section-content {
   width: 60vw;
   height: 70vh;
-  margin: 0 auto 0 auto;
-  margin-top: 15vh;
-  /* background-color: red; */
+  margin: 15vh 20vh 15vh 20vh;
+  background-color: red;
 }
 
 /* Buttons */
 .box-1 { 
   /* background-color: hsl(0, 100%, 70%);  */
   width: 250px;
-  margin: auto;
 }
 
 .btn {
@@ -79,25 +71,4 @@
 .btn-one:hover::after {
 	opacity: 0;	
 	transform: scale(0.1, 1);
-}
-
-/* Header CSS */
-.header-divider {
-  color: white;
-}
-
-.profile-photo {
-  width: 10vw;
-  height: auto;
-}
-
-.social-logo {
-  width: 40px;
-  height: auto;
-  padding: 0 1% 0 1%;
-}
-
-.social-logo:hover {
-  opacity: 0.8;
-  cursor: pointer;
 }

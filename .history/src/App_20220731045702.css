@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  margin: 0;
 }
 
 /* Section Content */
@@ -12,7 +11,7 @@
 .section-content {
   width: 60vw;
   height: 70vh;
-  margin: 0 auto 0 auto;
+  margin: auto;
   margin-top: 15vh;
   /* background-color: red; */
 }
