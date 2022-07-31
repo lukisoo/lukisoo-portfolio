@@ -169,19 +169,17 @@
 
 /* Projects CSS */
 .projects-gif {
-  margin-top: 10px;
   width: 9vw;
 }
 
 .all-projects {
-  margin: 2% 12% 5% 12%;
+  margin: 5% 10% 5% 10%;
 }
 
 .project-box {
   width: 300px;
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.1);
-  box-shadow: 8px 8px 1px rgba(255, 255, 255, 0.6);
 }
 
 .project-box:hover {

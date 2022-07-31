@@ -198,7 +198,7 @@ function App() {
           <h1>Projects</h1>{" "}
           <div className="all-projects">
             <Grid container rowSpacing={6} columnSpacing={0}>
-              {ProjectsData.reverse().map((Project, i) => (
+              {ProjectsData.reverse.map((Project, i) => (
                 <Grid item xs={6} md={4}>
                   <div className="project-box">
                     <img
