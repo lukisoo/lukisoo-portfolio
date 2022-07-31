@@ -6,6 +6,8 @@ import { motion } from "framer-motion";
 
 import ProjectsData from "./data/projectsData";
 
+import OceanEyes from "./images/projects-section/header-images/oceaneyes.png";
+
 import ProfilePhoto from "./images/header/profile-photo.png";
 import LinkedinLogo from "./images/header/linkedin-logo.png";
 import GithubLogo from "./images/header/github-logo.png";
@@ -32,11 +34,11 @@ function App() {
         <div className="header-content">
           <Grid container spacing={3}>
             <Grid item xs={12} md={12}>
-              <motion.div
-                viewport={{ once: true }}
-                transition={{ duration: 1 }}
-                whileInView={{ y: ["-2000px", "0px", "-50px", "0px"] }}
-              >
+            <motion.div
+                    viewport={{ once: true }}
+                    transition={{ duration: 1 }}
+                    whileInView={{ y: ["-2000px", "0px", "-50px", "0px"] }}
+                  >
                 <h2>Hey there, I'm Lucy Zhu.</h2>
               </motion.div>
             </Grid>
@@ -192,17 +194,15 @@ function App() {
         </div>
       </section>
 
-      <section id="projects-section" className="full-section-projects">
+      <section id="projects-section" className="full-section">
         <div>
           <img src={Projects} className="projects-gif" alt="Projects" />
           <h1>Projects</h1>
           <Grid container spacing={2}>
-            {ProjectsData.map((Project, i) => (
-              <Grid item xs={6} md={4}>
-              <img src={Project.header} alt={Project.title}/>
-                <h2>{Project.title}</h2>
-              </Grid>
-            ))}
+            <Grid item xs={6} md={8}></Grid>
+            <Grid item xs={6} md={4}></Grid>
+            <Grid item xs={6} md={4}></Grid>
+            <Grid item xs={6} md={8}></Grid>
           </Grid>
         </div>
       </section>

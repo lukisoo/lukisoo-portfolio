@@ -32,11 +32,11 @@ function App() {
         <div className="header-content">
           <Grid container spacing={3}>
             <Grid item xs={12} md={12}>
-              <motion.div
-                viewport={{ once: true }}
-                transition={{ duration: 1 }}
-                whileInView={{ y: ["-2000px", "0px", "-50px", "0px"] }}
-              >
+            <motion.div
+                    viewport={{ once: true }}
+                    transition={{ duration: 1 }}
+                    whileInView={{ y: ["-2000px", "0px", "-50px", "0px"] }}
+                  >
                 <h2>Hey there, I'm Lucy Zhu.</h2>
               </motion.div>
             </Grid>
@@ -197,12 +197,15 @@ function App() {
           <img src={Projects} className="projects-gif" alt="Projects" />
           <h1>Projects</h1>
           <Grid container spacing={2}>
-            {ProjectsData.map((Project, i) => (
-              <Grid item xs={6} md={4}>
-              <img src={Project.header} alt={Project.title}/>
-                <h2>{Project.title}</h2>
-              </Grid>
-            ))}
+          {ProjectsData.map((Project, i) => (<Grid item xs={6} md={12}>
+
+            </Grid>)
+          
+                      
+          
+          
+          )}
+
           </Grid>
         </div>
       </section>

@@ -198,7 +198,7 @@ function App() {
           <h1>Projects</h1>
           <Grid container spacing={2}>
             {ProjectsData.map((Project, i) => (
-              <Grid item xs={6} md={4}>
+              <Grid item xs={6} md={12}>
               <img src={Project.header} alt={Project.title}/>
                 <h2>{Project.title}</h2>
               </Grid>

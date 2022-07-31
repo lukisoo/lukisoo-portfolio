@@ -6,7 +6,7 @@ import Procast from "../images/projects-section/header-images/procast.png";
 import PlectrumSite from "../images/projects-section/header-images/plectrum-site.png";
 import ProjectMixSite from "../images/projects-section/header-images/project-mix-site.png";
 import HappinessHaven from "../images/projects-section/header-images/happiness-haven.png";
-import BeverageBinge from "../images/projects-section/header-images/beverage-binge.png";
+import OceanEyes from "../images/projects-section/header-images/oceaneyes.png";
 
 const projectsData = [
   {
