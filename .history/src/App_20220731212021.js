@@ -279,41 +279,42 @@ function App() {
       <section id="contact-section" className="full-section">
         <div className="contact-content">
           <img src={Contact} className="contact-gif" alt="Contact" />
-          <br />
           <h1>Contact me!</h1>
-          <br />
           <Grid container spacing={2}>
             <Grid item xs={6} md={12}>
-              <Tooltip title="LinkedIn">
+
+            <Tooltip title="LinkedIn">
                 <a href="https://www.linkedin.com/in/lucyzhu613/">
                   <img
-                    src={LinkedinLogo2}
+                    src={LinkedinLogo}
                     className="social-logo"
                     alt="Linkedin Logo"
                   />
                 </a>
               </Tooltip>
 
-              <Tooltip title="Github">
+              <Tooltip title="LinkedIn">
                 <a href="https://www.linkedin.com/in/lucyzhu613/">
                   <img
-                    src={GithubLogo2}
+                    src={LinkedinLogo}
                     className="social-logo"
-                    alt="Github Logo"
+                    alt="Linkedin Logo"
                   />
                 </a>
               </Tooltip>
 
-              <Tooltip title="Email: lzlucyz@gmail.com">
+              <Tooltip title="LinkedIn">
                 <a href="https://www.linkedin.com/in/lucyzhu613/">
                   <img
-                    src={EmailLogo}
+                    src={LinkedinLogo}
                     className="social-logo"
-                    alt="Email Logo"
+                    alt="Linkedin Logo"
                   />
                 </a>
               </Tooltip>
+
             </Grid>
+
           </Grid>
         </div>
       </section>

@@ -17,9 +17,6 @@ import LinkedinLogo from "./images/header/linkedin-logo.png";
 import GithubLogo from "./images/header/github-logo.png";
 import ExperienceLogo from "./images/about-me/experience.png";
 import AchievementsLogo from "./images/about-me/achievements.png";
-import LinkedinLogo2 from "./images/contact/linkedin-logo.png";
-import GithubLogo2 from "./images/contact/github-logo.png";
-import EmailLogo from "./images/contact/email-logo.png";
 
 import Laptop from "./images/about-me/laptop.gif";
 import Tools from "./images/about-me/tools.gif";
@@ -279,41 +276,12 @@ function App() {
       <section id="contact-section" className="full-section">
         <div className="contact-content">
           <img src={Contact} className="contact-gif" alt="Contact" />
-          <br />
           <h1>Contact me!</h1>
-          <br />
           <Grid container spacing={2}>
-            <Grid item xs={6} md={12}>
-              <Tooltip title="LinkedIn">
-                <a href="https://www.linkedin.com/in/lucyzhu613/">
-                  <img
-                    src={LinkedinLogo2}
-                    className="social-logo"
-                    alt="Linkedin Logo"
-                  />
-                </a>
-              </Tooltip>
-
-              <Tooltip title="Github">
-                <a href="https://www.linkedin.com/in/lucyzhu613/">
-                  <img
-                    src={GithubLogo2}
-                    className="social-logo"
-                    alt="Github Logo"
-                  />
-                </a>
-              </Tooltip>
-
-              <Tooltip title="Email: lzlucyz@gmail.com">
-                <a href="https://www.linkedin.com/in/lucyzhu613/">
-                  <img
-                    src={EmailLogo}
-                    className="social-logo"
-                    alt="Email Logo"
-                  />
-                </a>
-              </Tooltip>
-            </Grid>
+            <Grid item xs={6} md={8}></Grid>
+            <Grid item xs={6} md={4}></Grid>
+            <Grid item xs={6} md={4}></Grid>
+            <Grid item xs={6} md={8}></Grid>
           </Grid>
         </div>
       </section>

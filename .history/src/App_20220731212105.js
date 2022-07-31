@@ -279,9 +279,7 @@ function App() {
       <section id="contact-section" className="full-section">
         <div className="contact-content">
           <img src={Contact} className="contact-gif" alt="Contact" />
-          <br />
           <h1>Contact me!</h1>
-          <br />
           <Grid container spacing={2}>
             <Grid item xs={6} md={12}>
               <Tooltip title="LinkedIn">
