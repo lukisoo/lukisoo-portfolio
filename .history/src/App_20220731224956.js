@@ -64,7 +64,6 @@ function App() {
                 whileInView={{ y: ["-2000px", "0px", "-50px", "0px"] }}
               >
                 <h2>Hey there, I'm Lucy Zhu.</h2>
-                <p>Please excuse the messy site, it's still in progress!</p>
               </motion.div>
             </Grid>
             <Grid item xs={12} md={12}>
@@ -122,11 +121,18 @@ function App() {
       </header>
 
       <section id="about-me-section" className="full-section">
+        <motion.div
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+          whileInView={{ y: ["-2000px", "0px", "-50px", "-25px"] }}
+        ></motion.div>
         <div className="about-me-content">
           <Grid container spacing={0}>
             <Grid item xs={12} md={4}>
               <div className="about-me-left">
+                {" "}
                 <div className="details-content">
+                  {" "}
                   <motion.div
                     viewport={{ once: true }}
                     transition={{ duration: 1 }}
@@ -138,34 +144,26 @@ function App() {
                       className="profile-photo"
                       alt="Profile Photo"
                     />
+                    <p>Conjoint Engineering (honours) & Commerce at UoA</p>
+                    <p>Software Engineering | Finance | Accounting</p>
+                    <hr />
                     <p>
-                      Conjoint Bachelor of Engineering (honours) and Commerce at
-                      UoA
-                    </p>
-                    <p>
-                      <b>Software Engineering | Finance | Accounting</b>
+                      <br />
+                      Currently, most of my work is in frontend or full-stack
+                      development.
+                      <br />
+                      <br />
                     </p>
                     <hr />
-                    <br />
-                    <p>
-                      Most of my work has been in working on frontend or
-                      full-stack development.
-                    </p>
-                    <p>
-                      I have a broad range of interests, and am seeking to
-                      further develop my skills in technology and/or consulting.
-                    </p>
-                    <br />
-                    <hr />
-                    {/* <h3>Find out more:</h3> */}
+                    <h3>Find out more:</h3>
                     <div className="about-me-logo-section">
-                      {/* <Tooltip title="Experience">
+                      <Tooltip title="Experience">
                         <img
                           src={ExperienceLogo}
                           className="about-me-logo"
                           alt="Experience Logo"
                         />
-                      </Tooltip> */}
+                      </Tooltip>
                       <Tooltip title="Achievements">
                         <img
                           src={AchievementsLogo}
@@ -280,50 +278,44 @@ function App() {
 
       <section id="contact-section" className="full-section">
         <div className="contact-content">
-          <motion.div
-            viewport={{ once: true }}
-            transition={{ duration: 1 }}
-            whileInView={{ y: ["-2000px", "0px", "-50px", "-25px"] }}
-          >
-            <img src={Contact} className="contact-gif" alt="Contact" />
-            <br />
-            <h1>Contact me!</h1>
-            <p>I'm happy to have a chat about anything!</p>
-            <br />
-            <Grid container spacing={2}>
-              <Grid item xs={6} md={12}>
-                <Tooltip title="LinkedIn">
-                  <a href="https://www.linkedin.com/in/lucyzhu613/">
-                    <img
-                      src={LinkedinLogo2}
-                      className="social-logo"
-                      alt="Linkedin Logo"
-                    />
-                  </a>
-                </Tooltip>
+          <img src={Contact} className="contact-gif" alt="Contact" />
+          <br />
+          <h1>Contact me!</h1>
+          <p>I'm happy to have a chat about anything!</p>
+          <br />
+          <Grid container spacing={2}>
+            <Grid item xs={6} md={12}>
+              <Tooltip title="LinkedIn">
+                <a href="https://www.linkedin.com/in/lucyzhu613/">
+                  <img
+                    src={LinkedinLogo2}
+                    className="social-logo"
+                    alt="Linkedin Logo"
+                  />
+                </a>
+              </Tooltip>
 
-                <Tooltip title="Github">
-                  <a href="https://github.com/lukisoo">
-                    <img
-                      src={GithubLogo2}
-                      className="social-logo"
-                      alt="Github Logo"
-                    />
-                  </a>
-                </Tooltip>
+              <Tooltip title="Github">
+                <a href="https://www.linkedin.com/in/lucyzhu613/">
+                  <img
+                    src={GithubLogo2}
+                    className="social-logo"
+                    alt="Github Logo"
+                  />
+                </a>
+              </Tooltip>
 
-                <Tooltip title="Email: lzlucyz@gmail.com">
-                  <a href="mailto: lzlucyz@gmail.com">
-                    <img
-                      src={EmailLogo}
-                      className="social-logo"
-                      alt="Email Logo"
-                    />
-                  </a>
-                </Tooltip>
-              </Grid>
+              <Tooltip title="Email: lzlucyz@gmail.com">
+                <a href="https://www.linkedin.com/in/lucyzhu613/">
+                  <img
+                    src={EmailLogo}
+                    className="social-logo"
+                    alt="Email Logo"
+                  />
+                </a>
+              </Tooltip>
             </Grid>
-          </motion.div>
+          </Grid>
         </div>
       </section>
 
@@ -334,11 +326,6 @@ function App() {
       >
         <div>
           <div className="pick-task-content">
-            <img
-              src={ProjectsData[currentProject].header}
-              className="project-header-image-popup"
-              alt={ProjectsData[currentProject].title}
-            ></img>
             <h3>{ProjectsData[currentProject].affiliation}</h3>
             <p>{ProjectsData[currentProject].description}</p>
           </div>
@@ -348,7 +335,7 @@ function App() {
       <AchievementsPopUp
         onClose={closeAchievementsPopUpHandler}
         show={visibilityAchievementPopUp}
-        title="Achievements (2021 - now)"
+        title="Achievements (2021 onwards only)"
       >
         <div>
           <div className="pick-task-content">

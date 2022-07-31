@@ -138,13 +138,8 @@ function App() {
                       className="profile-photo"
                       alt="Profile Photo"
                     />
-                    <p>
-                      Conjoint Bachelor of Engineering (honours) and Commerce at
-                      UoA
-                    </p>
-                    <p>
-                      <b>Software Engineering | Finance | Accounting</b>
-                    </p>
+                    <p>Conjoint Engineering (honours) & Commerce at UoA</p>
+                    <p>Software Engineering | Finance | Accounting</p>
                     <hr />
                     <br />
                     <p>
@@ -155,6 +150,7 @@ function App() {
                       I have a broad range of interests, and am seeking to
                       further develop my skills in technology and/or consulting.
                     </p>
+                    <br />
                     <br />
                     <hr />
                     {/* <h3>Find out more:</h3> */}

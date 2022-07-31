@@ -138,13 +138,8 @@ function App() {
                       className="profile-photo"
                       alt="Profile Photo"
                     />
-                    <p>
-                      Conjoint Bachelor of Engineering (honours) and Commerce at
-                      UoA
-                    </p>
-                    <p>
-                      <b>Software Engineering | Finance | Accounting</b>
-                    </p>
+                    <p>Conjoint Bachelor of Engineering (honours) and Commerce at UoA</p>
+                    <p><b>Software Engineering | Finance | Accounting</b></p>
                     <hr />
                     <br />
                     <p>

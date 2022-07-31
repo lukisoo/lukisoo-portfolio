@@ -138,24 +138,17 @@ function App() {
                       className="profile-photo"
                       alt="Profile Photo"
                     />
-                    <p>
-                      Conjoint Bachelor of Engineering (honours) and Commerce at
-                      UoA
-                    </p>
-                    <p>
-                      <b>Software Engineering | Finance | Accounting</b>
-                    </p>
+                    <p>Conjoint Engineering (honours) & Commerce at UoA</p>
+                    <p>Software Engineering | Finance | Accounting</p>
                     <hr />
-                    <br />
                     <p>
-                      Most of my work has been in working on frontend or
-                      full-stack development.
+                      <br />
+                      Most of my work has been in working on frontend or full-stack development.
+
+                      My interests lie across many technology / business areas, and 
+                      <br />
+                      <br />
                     </p>
-                    <p>
-                      I have a broad range of interests, and am seeking to
-                      further develop my skills in technology and/or consulting.
-                    </p>
-                    <br />
                     <hr />
                     {/* <h3>Find out more:</h3> */}
                     <div className="about-me-logo-section">

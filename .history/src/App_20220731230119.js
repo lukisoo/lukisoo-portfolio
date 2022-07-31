@@ -64,7 +64,6 @@ function App() {
                 whileInView={{ y: ["-2000px", "0px", "-50px", "0px"] }}
               >
                 <h2>Hey there, I'm Lucy Zhu.</h2>
-                <p>Please excuse the messy site, it's still in progress!</p>
               </motion.div>
             </Grid>
             <Grid item xs={12} md={12}>
@@ -138,24 +137,16 @@ function App() {
                       className="profile-photo"
                       alt="Profile Photo"
                     />
-                    <p>
-                      Conjoint Bachelor of Engineering (honours) and Commerce at
-                      UoA
-                    </p>
-                    <p>
-                      <b>Software Engineering | Finance | Accounting</b>
-                    </p>
+                    <p>Conjoint Engineering (honours) & Commerce at UoA</p>
+                    <p>Software Engineering | Finance | Accounting</p>
                     <hr />
-                    <br />
                     <p>
-                      Most of my work has been in working on frontend or
-                      full-stack development.
+                      <br />
+                      Currently, most of my work is in frontend or full-stack
+                      development.
+                      <br />
+                      <br />
                     </p>
-                    <p>
-                      I have a broad range of interests, and am seeking to
-                      further develop my skills in technology and/or consulting.
-                    </p>
-                    <br />
                     <hr />
                     {/* <h3>Find out more:</h3> */}
                     <div className="about-me-logo-section">
