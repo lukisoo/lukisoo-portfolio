@@ -166,7 +166,7 @@ function App() {
                           alt="Experience Logo"
                         />
                       </Tooltip> */}
-                      {/* <Tooltip title="Achievements">
+                      <Tooltip title="Achievements">
                         <img
                           src={AchievementsLogo}
                           className="about-me-logo"
@@ -177,7 +177,7 @@ function App() {
                             )
                           }
                         />
-                      </Tooltip> */}
+                      </Tooltip>
                     </div>{" "}
                   </motion.div>
                 </div>

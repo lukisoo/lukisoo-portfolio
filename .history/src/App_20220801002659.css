@@ -141,7 +141,8 @@
   }
 
   .projects-gif {
-    width: 15vw;
+    margin-top: 10px;
+    width: 30vw;
   }
 }
 

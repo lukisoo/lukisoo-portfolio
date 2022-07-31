@@ -166,7 +166,7 @@ function App() {
                           alt="Experience Logo"
                         />
                       </Tooltip> */}
-                      {/* <Tooltip title="Achievements">
+                      <Tooltip title="Achievements">
                         <img
                           src={AchievementsLogo}
                           className="about-me-logo"
@@ -177,7 +177,7 @@ function App() {
                             )
                           }
                         />
-                      </Tooltip> */}
+                      </Tooltip>
                     </div>{" "}
                   </motion.div>
                 </div>
@@ -238,7 +238,7 @@ function App() {
 
           <div className="all-projects">
             <Grid container rowSpacing={6} columnSpacing={0}>
-              {[...ProjectsData].reverse().map((Project, i) => (
+              {ProjectsData.map((Project, i) => (
                 <Grid item xs={12} md={4}>
                   <motion.div
                     // drag

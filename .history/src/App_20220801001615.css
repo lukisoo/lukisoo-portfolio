@@ -99,16 +99,6 @@
   height: auto;
 }
 
-@media only screen and (max-width: 768px) {
-  /* For non-desktop:  (not mobile first here :(((( )*/
-  
-  .profile-photo {
-    width: 40vw;
-    height: auto;
-  }
-  
-}
-
 .profile-photo {
   width: 10vw;
   height: auto;
@@ -130,23 +120,8 @@
   background-color: #fbf2eb;
 }
 
-/* On small screens */
-#about-me-section {
-  background-color: #fbf2eb;
-}
-
-@media (max-width: 900px) {
-  #about-me-section {
-    height: 200vh;
-  }
-
-  .projects-gif {
-    width: 15vw;
-  }
-}
-
 .about-me-content {
-  height: 100vh;
+  height: 200vh;
   width: 100vw;
 }
 
@@ -168,7 +143,6 @@
 }
 
 .about-me-left {
-  height: 100vh;
 }
 
 .details-content {
@@ -261,6 +235,5 @@
 }
 
 .contact-gif {
-  margin-top: 3%;
   width: 10vw;
 }

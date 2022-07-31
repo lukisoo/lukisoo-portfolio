@@ -135,13 +135,9 @@
   background-color: #fbf2eb;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   #about-me-section {
     height: 200vh;
-  }
-
-  .projects-gif {
-    width: 15vw;
   }
 }
 
