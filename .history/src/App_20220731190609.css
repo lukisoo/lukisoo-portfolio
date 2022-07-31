@@ -186,12 +186,9 @@
 
 .project-box:hover {
   /* opacity: 0.8; */
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(255, 255, 255, 0.3);
   cursor: pointer;
-  -webkit-transition: background-color 0.3s ease-out;
-  -moz-transition: background-color 0.3s ease-out;
-  -o-transition: background-color 0.3ss ease-out;
-  transition: background-color 0.3s ease-out;
+  transition: background-color 2s ease-out;
 }
 
 .project-text {
@@ -216,12 +213,6 @@
 
 .project-header-image {
   width: 100%;
-  /* -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-  user-drag: none; */
 }
 
 /* Contact CSS */

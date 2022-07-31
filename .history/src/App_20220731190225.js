@@ -223,27 +223,21 @@ function App() {
           >
             <img src={Projects} className="projects-gif" alt="Projects" />
             <h1>Projects</h1>{" "}
-          </motion.div>
-
-          <div className="all-projects">
-            <Grid container rowSpacing={6} columnSpacing={0}>
-              {ProjectsData.reverse().map((Project, i) => (
-                <Grid item xs={6} md={4}>
+            <div className="all-projects">
+              <Grid container rowSpacing={6} columnSpacing={0}>
+                {ProjectsData.reverse().map((Project, i) => (
+                  <Grid item xs={6} md={4}>
                   <motion.div
-                    drag
-                    dragConstraints = {{top: -50, left: -50, right: 50, bottom: 50}}
                     viewport={{ once: true }}
                     transition={{ duration: 1 }}
                     whileInView={{ y: ["-200px", "0px", "-50px", "0px"] }}
-                  >
-                    <div
+                  ><div
                       className="project-box"
                       onClick={(e) =>
                         setVisibilityProjectPopUp(!visibilityProjectPopUp)
                       }
                     >
                       <img
-                        draggable="false"
                         src={Project.header}
                         className="project-header-image"
                         alt={Project.title}
@@ -257,12 +251,13 @@ function App() {
                         className="project-bottom-bar"
                         style={{ backgroundColor: Project.color }}
                       ></div>
-                    </div>
-                  </motion.div>
-                </Grid>
-              ))}
-            </Grid>
-          </div>
+                    </div></motion.div>
+                    
+                  </Grid>
+                ))}
+              </Grid>
+            </div>
+          </motion.div>
         </div>
       </section>
 

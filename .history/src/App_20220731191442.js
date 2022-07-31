@@ -231,7 +231,6 @@ function App() {
                 <Grid item xs={6} md={4}>
                   <motion.div
                     drag
-                    dragConstraints = {{top: -50, left: -50, right: 50, bottom: 50}}
                     viewport={{ once: true }}
                     transition={{ duration: 1 }}
                     whileInView={{ y: ["-200px", "0px", "-50px", "0px"] }}

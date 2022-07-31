@@ -216,53 +216,43 @@ function App() {
 
       <section id="projects-section" className="full-section-projects">
         <div>
-          <motion.div
-            viewport={{ once: true }}
-            transition={{ duration: 1 }}
-            whileInView={{ y: ["-200px", "0px", "-50px", "0px"] }}
-          >
             <img src={Projects} className="projects-gif" alt="Projects" />
             <h1>Projects</h1>{" "}
-          </motion.div>
-
-          <div className="all-projects">
-            <Grid container rowSpacing={6} columnSpacing={0}>
-              {ProjectsData.reverse().map((Project, i) => (
-                <Grid item xs={6} md={4}>
-                  <motion.div
-                    drag
-                    dragConstraints = {{top: -50, left: -50, right: 50, bottom: 50}}
-                    viewport={{ once: true }}
-                    transition={{ duration: 1 }}
-                    whileInView={{ y: ["-200px", "0px", "-50px", "0px"] }}
-                  >
-                    <div
-                      className="project-box"
-                      onClick={(e) =>
-                        setVisibilityProjectPopUp(!visibilityProjectPopUp)
-                      }
+            <div className="all-projects">
+              <Grid container rowSpacing={6} columnSpacing={0}>
+                {ProjectsData.reverse().map((Project, i) => (
+                  <Grid item xs={6} md={4}>
+                    <motion.div
+                      viewport={{ once: true }}
+                      transition={{ duration: 1 }}
+                      whileInView={{ y: ["-200px", "0px", "-50px", "0px"] }}
                     >
-                      <img
-                        draggable="false"
-                        src={Project.header}
-                        className="project-header-image"
-                        alt={Project.title}
-                      />
-                      <div className="project-text">
-                        <h3>{Project.title}</h3>
-                        <p>{Project.affiliation}</p>
-                      </div>
-
                       <div
-                        className="project-bottom-bar"
-                        style={{ backgroundColor: Project.color }}
-                      ></div>
-                    </div>
-                  </motion.div>
-                </Grid>
-              ))}
-            </Grid>
-          </div>
+                        className="project-box"
+                        onClick={(e) =>
+                          setVisibilityProjectPopUp(!visibilityProjectPopUp)
+                        }
+                      >
+                        <img
+                          src={Project.header}
+                          className="project-header-image"
+                          alt={Project.title}
+                        />
+                        <div className="project-text">
+                          <h3>{Project.title}</h3>
+                          <p>{Project.affiliation}</p>
+                        </div>
+
+                        <div
+                          className="project-bottom-bar"
+                          style={{ backgroundColor: Project.color }}
+                        ></div>
+                      </div>
+                    </motion.div>
+                  </Grid>
+                ))}
+              </Grid>
+            </div>
         </div>
       </section>
 

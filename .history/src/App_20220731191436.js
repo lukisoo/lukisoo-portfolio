@@ -230,8 +230,7 @@ function App() {
               {ProjectsData.reverse().map((Project, i) => (
                 <Grid item xs={6} md={4}>
                   <motion.div
-                    drag
-                    dragConstraints = {{top: -50, left: -50, right: 50, bottom: 50}}
+                  drag
                     viewport={{ once: true }}
                     transition={{ duration: 1 }}
                     whileInView={{ y: ["-200px", "0px", "-50px", "0px"] }}
@@ -243,7 +242,7 @@ function App() {
                       }
                     >
                       <img
-                        draggable="false"
+                      draggable={false}
                         src={Project.header}
                         className="project-header-image"
                         alt={Project.title}
