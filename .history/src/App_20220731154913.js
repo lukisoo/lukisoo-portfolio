@@ -30,11 +30,12 @@ function App() {
         <div className="header-content">
           <Grid container spacing={3}>
             <Grid item xs={12} md={12}>
-            <motion.div
-                    viewport={{ once: true }}
-                    transition={{ duration: 1 }}
-                    whileInView={{ y: ["-2000px", "0px", "-50px", "0px"] }}
-                  >
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 1 }}
+              >
                 <h2>Hey there, I'm Lucy Zhu.</h2>
               </motion.div>
             </Grid>

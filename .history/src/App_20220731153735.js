@@ -30,11 +30,12 @@ function App() {
         <div className="header-content">
           <Grid container spacing={3}>
             <Grid item xs={12} md={12}>
-            <motion.div
-                    viewport={{ once: true }}
-                    transition={{ duration: 1 }}
-                    whileInView={{ y: ["-2000px", "0px", "-50px", "0px"] }}
-                  >
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 1 }}
+              >
                 <h2>Hey there, I'm Lucy Zhu.</h2>
               </motion.div>
             </Grid>
@@ -102,20 +103,19 @@ function App() {
           <Grid container spacing={0}>
             <Grid item xs={12} md={4}>
               <div className="about-me-left">
-                {" "}
                 <div className="details-content">
-                  {" "}
+                  <h1>About me!</h1>
+                  <img
+                    src={ProfilePhoto}
+                    className="profile-photo"
+                    alt="Profile Photo"
+                  />
                   <motion.div
                     viewport={{ once: true }}
                     transition={{ duration: 1 }}
-                    whileInView={{ y: ["-200px", "0px", "-50px", "0px"] }}
+                    whileInView={{ y: ["-2000px", "0px", "-50px", "0px"] }}
                   >
-                    <h1>About me!</h1>
-                    <img
-                      src={ProfilePhoto}
-                      className="profile-photo"
-                      alt="Profile Photo"
-                    />
+                    {" "}
                     <p>Conjoint Engineering (honours) & Commerce at UoA</p>
                     <p>Software Engineering | Finance | Accounting</p>
                     <hr />
@@ -126,63 +126,52 @@ function App() {
                       <br />
                       <br />
                     </p>
-                    <hr />
-                    <h3>Find out more:</h3>
-                    <div className="about-me-logo-section">
-                      <Tooltip title="Experience">
-                        <img
-                          src={ExperienceLogo}
-                          className="about-me-logo"
-                          alt="Experience Logo"
-                        />
-                      </Tooltip>
-                      <Tooltip title="Achievements">
-                        <img
-                          src={AchievementsLogo}
-                          className="about-me-logo"
-                          alt="Achievements Logo"
-                        />
-                      </Tooltip>
-                    </div>{" "}
                   </motion.div>
+
+                  <hr />
+                  <h3>Find out more:</h3>
+                  <div className="about-me-logo-section">
+                    <Tooltip title="Experience">
+                      <img
+                        src={ExperienceLogo}
+                        className="about-me-logo"
+                        alt="Experience Logo"
+                      />
+                    </Tooltip>
+                    <Tooltip title="Achievements">
+                      <img
+                        src={AchievementsLogo}
+                        className="about-me-logo"
+                        alt="Achievements Logo"
+                      />
+                    </Tooltip>
+                  </div>
                 </div>
               </div>
             </Grid>
             <Grid item xs={12} md={8}>
               <div className="about-me-right">
                 <div className="skills-content">
-                  <motion.div
-                    viewport={{ once: true }}
-                    transition={{ duration: 1 }}
-                    whileInView={{ y: ["-200px", "0px", "-50px", "0px"] }}
-                  >
-                    <img src={Laptop} className="laptop-gif" alt="Laptop" />
-                    <h2>Technologies</h2>
-                    <p>React | Next.js | HTML | Javascript | CSS</p>
-                    <p>
-                      Bootstrap | Material UI | Tailwind CSS | Chakra UI | Ant
-                      Design
-                    </p>
-                    <p>Node.js | Express.js | MySQL | MongoDB</p>
-                    <p>Python | Java</p>
-                    <br />{" "}
-                  </motion.div>{" "}
-                  <motion.div
-                    viewport={{ once: true }}
-                    transition={{ duration: 1 }}
-                    whileInView={{ y: ["-200px", "0px", "-50px", "0px"] }}
-                  >
-                    <img src={Tools} className="tools-gif" alt="Tools" />
-                    <h2>Other skills / tools</h2>
-                    <p>
-                      UI / UX Design | Traditional / Digital Art | Graphic
-                      Design | Responsive Design
-                    </p>
-                    <p>
-                      Figma | Miro | Jira | Asana | Notion | Procreate | GIMP |
-                      LaTeX
-                    </p>{" "}
-                  </motion.div>
+                  <img src={Laptop} className="laptop-gif" alt="Laptop" />
+                  <h2>Technologies</h2>
+                  <p>React | Next.js | HTML | Javascript | CSS</p>
+                  <p>
+                    Bootstrap | Material UI | Tailwind CSS | Chakra UI | Ant
+                    Design
+                  </p>
+                  <p>Node.js | Express.js | MySQL | MongoDB</p>
+                  <p>Python | Java</p>
+                  <br />
+                  <img src={Tools} className="tools-gif" alt="Tools" />
+                  <h2>Other skills / tools</h2>
+                  <p>
+                    UI / UX Design | Traditional / Digital Art | Graphic Design
+                    | Responsive Design
+                  </p>
+                  <p>
+                    Figma | Miro | Jira | Asana | Notion | Procreate | GIMP |
+                    LaTeX
+                  </p>
                 </div>
               </div>
             </Grid>

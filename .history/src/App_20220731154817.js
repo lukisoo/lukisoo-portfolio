@@ -30,11 +30,12 @@ function App() {
         <div className="header-content">
           <Grid container spacing={3}>
             <Grid item xs={12} md={12}>
-            <motion.div
-                    viewport={{ once: true }}
-                    transition={{ duration: 1 }}
-                    whileInView={{ y: ["-2000px", "0px", "-50px", "0px"] }}
-                  >
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 1 }}
+              >
                 <h2>Hey there, I'm Lucy Zhu.</h2>
               </motion.div>
             </Grid>
@@ -102,20 +103,20 @@ function App() {
           <Grid container spacing={0}>
             <Grid item xs={12} md={4}>
               <div className="about-me-left">
-                {" "}
-                <div className="details-content">
+                <motion.div
+                  viewport={{ once: true }}
+                  transition={{ duration: 1 }}
+                  whileInView={{ y: ["-2000px", "0px", "-50px", "0px"] }}
+                >
                   {" "}
-                  <motion.div
-                    viewport={{ once: true }}
-                    transition={{ duration: 1 }}
-                    whileInView={{ y: ["-200px", "0px", "-50px", "0px"] }}
-                  >
+                  <div className="details-content">
                     <h1>About me!</h1>
                     <img
                       src={ProfilePhoto}
                       className="profile-photo"
                       alt="Profile Photo"
                     />
+
                     <p>Conjoint Engineering (honours) & Commerce at UoA</p>
                     <p>Software Engineering | Finance | Accounting</p>
                     <hr />
@@ -126,6 +127,7 @@ function App() {
                       <br />
                       <br />
                     </p>
+
                     <hr />
                     <h3>Find out more:</h3>
                     <div className="about-me-logo-section">
@@ -143,18 +145,18 @@ function App() {
                           alt="Achievements Logo"
                         />
                       </Tooltip>
-                    </div>{" "}
-                  </motion.div>
-                </div>
+                    </div>
+                  </div>
+                </motion.div>
               </div>
             </Grid>
             <Grid item xs={12} md={8}>
               <div className="about-me-right">
                 <div className="skills-content">
-                  <motion.div
+                <motion.div
                     viewport={{ once: true }}
                     transition={{ duration: 1 }}
-                    whileInView={{ y: ["-200px", "0px", "-50px", "0px"] }}
+                    whileInView={{ y: ["-100px", "0px", "-50px", "0px"] }}
                   >
                     <img src={Laptop} className="laptop-gif" alt="Laptop" />
                     <h2>Technologies</h2>
@@ -165,12 +167,10 @@ function App() {
                     </p>
                     <p>Node.js | Express.js | MySQL | MongoDB</p>
                     <p>Python | Java</p>
-                    <br />{" "}
-                  </motion.div>{" "}
-                  <motion.div
+                    <br /> </motion.div>                 <motion.div
                     viewport={{ once: true }}
                     transition={{ duration: 1 }}
-                    whileInView={{ y: ["-200px", "0px", "-50px", "0px"] }}
+                    whileInView={{ y: ["-100px", "0px", "-50px", "0px"] }}
                   >
                     <img src={Tools} className="tools-gif" alt="Tools" />
                     <h2>Other skills / tools</h2>

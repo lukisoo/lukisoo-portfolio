@@ -144,18 +144,14 @@ function App() {
                         />
                       </Tooltip>
                     </div>{" "}
-                  </motion.div>
+
                 </div>
               </div>
             </Grid>
             <Grid item xs={12} md={8}>
               <div className="about-me-right">
                 <div className="skills-content">
-                  <motion.div
-                    viewport={{ once: true }}
-                    transition={{ duration: 1 }}
-                    whileInView={{ y: ["-200px", "0px", "-50px", "0px"] }}
-                  >
+
                     <img src={Laptop} className="laptop-gif" alt="Laptop" />
                     <h2>Technologies</h2>
                     <p>React | Next.js | HTML | Javascript | CSS</p>
