@@ -1,18 +1,28 @@
 {
   "files": {
-    "main.css": "/lukisoo-portfolio/static/css/main.4343f3af.css",
-    "main.js": "/lukisoo-portfolio/static/js/main.9104ec34.js",
+    "main.css": "/lukisoo-portfolio/static/css/main.ec31e517.css",
+    "main.js": "/lukisoo-portfolio/static/js/main.c3276b2b.js",
     "static/js/787.ed16ea09.chunk.js": "/lukisoo-portfolio/static/js/787.ed16ea09.chunk.js",
     "static/media/laptop.gif": "/lukisoo-portfolio/static/media/laptop.f6fb723aaad6e66c32c4.gif",
+    "static/media/habidapt.png": "/lukisoo-portfolio/static/media/habidapt.c7a8173a71c8518f7704.png",
+    "static/media/project-mix-site.png": "/lukisoo-portfolio/static/media/project-mix-site.ffd29bf14c6d9b83b9f4.png",
+    "static/media/plectrum-site.png": "/lukisoo-portfolio/static/media/plectrum-site.cb6082dc39a994cc119f.png",
     "static/media/tools.gif": "/lukisoo-portfolio/static/media/tools.4640ff086cea1c0b0b11.gif",
+    "static/media/happiness-haven.png": "/lukisoo-portfolio/static/media/happiness-haven.ca21a71ab484782ff6f0.png",
+    "static/media/discover.png": "/lukisoo-portfolio/static/media/discover.7507b383938631b67e4b.png",
     "static/media/profile-photo.png": "/lukisoo-portfolio/static/media/profile-photo.1d5bcaecb6d87057b6ce.png",
+    "static/media/projects.gif": "/lukisoo-portfolio/static/media/projects.4d72ef5b7882c76d724c.gif",
+    "static/media/oceaneyes.png": "/lukisoo-portfolio/static/media/oceaneyes.9d6a14137aaba27c5393.png",
+    "static/media/beverage-binge.png": "/lukisoo-portfolio/static/media/beverage-binge.eec9d19617b1ab497330.png",
+    "static/media/contact.gif": "/lukisoo-portfolio/static/media/contact.ed2fed931e9704c5ce94.gif",
+    "static/media/auxilium.png": "/lukisoo-portfolio/static/media/auxilium.6f15a1819470ee7d0709.png",
     "index.html": "/lukisoo-portfolio/index.html",
-    "main.4343f3af.css.map": "/lukisoo-portfolio/static/css/main.4343f3af.css.map",
-    "main.9104ec34.js.map": "/lukisoo-portfolio/static/js/main.9104ec34.js.map",
+    "main.ec31e517.css.map": "/lukisoo-portfolio/static/css/main.ec31e517.css.map",
+    "main.c3276b2b.js.map": "/lukisoo-portfolio/static/js/main.c3276b2b.js.map",
     "787.ed16ea09.chunk.js.map": "/lukisoo-portfolio/static/js/787.ed16ea09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4343f3af.css",
-    "static/js/main.9104ec34.js"
+    "static/css/main.ec31e517.css",
+    "static/js/main.c3276b2b.js"
   ]
 }
