@@ -165,9 +165,6 @@
 }
 
 /* Projects CSS */
-.projects-gif {
-  width: 9vw;
-}
 
 /* Contact CSS */
 
@@ -177,8 +174,4 @@
 
 .contact-content {
   color: #646064;
-}
-
-.contact-gif {
-  width: 10vw;
 }

@@ -2,7 +2,6 @@ import "./App.css";
 
 import { Link } from "react-router-dom";
 import { Tooltip, Grid } from "@mui/material";
-import { motion } from "framer-motion"
 
 import ProfilePhoto from "./images/header/profile-photo.png";
 import LinkedinLogo from "./images/header/linkedin-logo.png";

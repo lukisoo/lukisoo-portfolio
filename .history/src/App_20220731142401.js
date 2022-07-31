@@ -2,7 +2,6 @@ import "./App.css";
 
 import { Link } from "react-router-dom";
 import { Tooltip, Grid } from "@mui/material";
-import { motion } from "framer-motion"
 
 import ProfilePhoto from "./images/header/profile-photo.png";
 import LinkedinLogo from "./images/header/linkedin-logo.png";
@@ -12,8 +11,7 @@ import AchievementsLogo from "./images/about-me/achievements.png";
 
 import Laptop from "./images/about-me/laptop.gif";
 import Tools from "./images/about-me/tools.gif";
-import Projects from "./images/projects-section/projects.gif";
-import Contact from "./images/contact/contact.gif";
+import Projects from "./images/about-me/projects.gif:;"
 
 function App() {
   return (
@@ -160,7 +158,7 @@ function App() {
 
       <section id="projects-section" className="full-section">
         <div>
-        <img src={Projects} className="projects-gif" alt="Projects"/>
+        <img src={Projects} className="" alt="Projects"/>
           <h1>Projects</h1>
           <Grid container spacing={2}>
             <Grid item xs={6} md={8}></Grid>
@@ -172,8 +170,7 @@ function App() {
       </section>
 
       <section id="contact-section" className="full-section">
-        <div className="contact-content">
-        <img src={Contact} className="contact-gif" alt="Paper Plane - Contact"/>
+        <div>
           <h1>Contact me!</h1>
           <Grid container spacing={2}>
             <Grid item xs={6} md={8}></Grid>
