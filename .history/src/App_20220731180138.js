@@ -195,9 +195,10 @@ function App() {
       <section id="projects-section" className="full-section-projects">
         <div>
           <img src={Projects} className="projects-gif" alt="Projects" />
-          <h1>Projects</h1>{" "}
-          <div className="all-projects">
-            <Grid container rowSpacing={6} columnSpacing={2}>
+          <h1>Projects</h1>
+          <Grid container spacing={2}>
+            <div className="all-projects">
+              {" "}
               {ProjectsData.map((Project, i) => (
                 <Grid item xs={6} md={4}>
                   <div className="project-box">
@@ -206,11 +207,8 @@ function App() {
                       className="project-header-image"
                       alt={Project.title}
                     />
-                    <div className="project-text">
-                      <h3>{Project.title}</h3>
-                      <p>{Project.affiliation}</p>
-                    </div>
-
+                    <h3>{Project.title}</h3>
+                    <h4>{Project.affiliation}</h4>
                     <div
                       className="project-bottom-bar"
                       style={{ backgroundColor: Project.color }}
@@ -218,8 +216,8 @@ function App() {
                   </div>
                 </Grid>
               ))}
-            </Grid>{" "}
-          </div>
+            </div>
+          </Grid>
         </div>
       </section>
 

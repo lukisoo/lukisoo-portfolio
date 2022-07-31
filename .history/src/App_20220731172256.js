@@ -195,31 +195,17 @@ function App() {
       <section id="projects-section" className="full-section-projects">
         <div>
           <img src={Projects} className="projects-gif" alt="Projects" />
-          <h1>Projects</h1>{" "}
-          <div className="all-projects">
-            <Grid container rowSpacing={6} columnSpacing={2}>
-              {ProjectsData.map((Project, i) => (
-                <Grid item xs={6} md={4}>
-                  <div className="project-box">
-                    <img
-                      src={Project.header}
-                      className="project-header-image"
-                      alt={Project.title}
-                    />
-                    <div className="project-text">
-                      <h3>{Project.title}</h3>
-                      <p>{Project.affiliation}</p>
-                    </div>
-
-                    <div
-                      className="project-bottom-bar"
-                      style={{ backgroundColor: Project.color }}
-                    ></div>
-                  </div>
-                </Grid>
-              ))}
-            </Grid>{" "}
-          </div>
+          <h1>Projects</h1>
+          <Grid container spacing={2}>
+            {ProjectsData.map((Project, i) => (
+              <Grid item xs={6} md={4}>
+              <img src={Project.header} alt={Project.title}/>
+                <h3>{Project.title}</h3>
+                <h4>{Project.affiliation}</h4>
+                <div className="project-bottom-bar"></div>
+              </Grid>
+            ))}
+          </Grid>
         </div>
       </section>
 

@@ -197,7 +197,7 @@ function App() {
           <img src={Projects} className="projects-gif" alt="Projects" />
           <h1>Projects</h1>{" "}
           <div className="all-projects">
-            <Grid container rowSpacing={6} columnSpacing={2}>
+            <Grid container spacing={2}>
               {ProjectsData.map((Project, i) => (
                 <Grid item xs={6} md={4}>
                   <div className="project-box">
@@ -206,11 +206,9 @@ function App() {
                       className="project-header-image"
                       alt={Project.title}
                     />
-                    <div className="project-text">
-                      <h3>{Project.title}</h3>
-                      <p>{Project.affiliation}</p>
-                    </div>
-
+                    <div className="project-text"><h3>{Project.title}</h3>
+                    <h4>{Project.affiliation}</h4></div>
+                    
                     <div
                       className="project-bottom-bar"
                       style={{ backgroundColor: Project.color }}

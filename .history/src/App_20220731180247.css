@@ -173,7 +173,7 @@
 }
 
 .all-projects {
-  margin: 5% 10% 5% 10%;
+  margin: 5%;
 }
 
 .project-box {
@@ -181,28 +181,18 @@
   margin: 0 auto;
 }
 
-.project-box:hover {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-.project-text {
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
 .project-box h3 {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.project-box p {
-  margin-top: 1%;
+.project-box h4 {
+  margin-top: 0;
   margin-bottom: 0;
 }
 
 .project-bottom-bar {
-  height: 17.5px;
+  height: 15px;
   width: 100%;
 }
 

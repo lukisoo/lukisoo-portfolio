@@ -181,9 +181,9 @@
   margin: 0 auto;
 }
 
-.project-box:hover {
-  opacity: 0.8;
-  cursor: pointer;
+.project-box {
+  width: 300px;
+  margin: 0 auto;
 }
 
 .project-text {
