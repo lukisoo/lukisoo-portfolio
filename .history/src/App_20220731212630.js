@@ -326,7 +326,6 @@ function App() {
         <div>
           <div className="pick-task-content">
             <h3>{ProjectsData[currentProject].affiliation}</h3>
-            <p>{ProjectsData[currentProject].description}</p>
           </div>
         </div>
       </ProjectPopUp>
