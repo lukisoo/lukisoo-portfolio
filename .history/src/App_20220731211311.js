@@ -289,7 +289,7 @@ function App() {
       <ProjectPopUp
         onClose={closeProjectPopUpHandler}
         show={visibilityProjectPopUp}
-        title={ProjectsData[currentProject].title}
+        title="Project"
       >
         <div>
           <div className="pick-task-content">

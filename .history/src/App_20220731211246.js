@@ -171,6 +171,7 @@ function App() {
                               !visibilityAchievementPopUp
                             )
                           }
+                          
                         />
                       </Tooltip>
                     </div>{" "}
@@ -246,8 +247,8 @@ function App() {
                       className="project-box"
                       onClick={() => (
                         setVisibilityProjectPopUp(!visibilityProjectPopUp),
-                        setCurrentProject(Project.id)
-                      )}
+                    setCurrentDrinkState(DisplayItem[1])
+                  )}
                     >
                       <img
                         draggable="false"
@@ -289,7 +290,7 @@ function App() {
       <ProjectPopUp
         onClose={closeProjectPopUpHandler}
         show={visibilityProjectPopUp}
-        title={ProjectsData[currentProject].title}
+        title="Project"
       >
         <div>
           <div className="pick-task-content">

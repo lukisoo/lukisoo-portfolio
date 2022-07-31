@@ -244,10 +244,9 @@ function App() {
                   >
                     <div
                       className="project-box"
-                      onClick={() => (
-                        setVisibilityProjectPopUp(!visibilityProjectPopUp),
-                        setCurrentProject(Project.id)
-                      )}
+                      onClick={(e) =>
+                        setVisibilityProjectPopUp(!visibilityProjectPopUp)
+                      }
                     >
                       <img
                         draggable="false"
@@ -289,7 +288,7 @@ function App() {
       <ProjectPopUp
         onClose={closeProjectPopUpHandler}
         show={visibilityProjectPopUp}
-        title={ProjectsData[currentProject].title}
+        title="Project"
       >
         <div>
           <div className="pick-task-content">
