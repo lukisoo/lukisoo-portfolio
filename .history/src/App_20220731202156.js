@@ -260,6 +260,18 @@ function App() {
                     </div>
                   </motion.div>
                 </Grid>
+
+                <ProjectPopUp
+        onClose={closeProjectPopUpHandler}
+        show={visibilityProjectPopUp}
+        title="Project"
+      >
+        <div>
+          <div className="pick-task-content">
+            <h3></h3>
+          </div>
+        </div>
+      </ProjectPopUp>
               ))}
             </Grid>
           </div>
@@ -278,18 +290,6 @@ function App() {
           </Grid>
         </div>
       </section>
-
-      <ProjectPopUp
-        onClose={closeProjectPopUpHandler}
-        show={visibilityProjectPopUp}
-        title="Project"
-      >
-        <div>
-          <div className="pick-task-content">
-            <h3></h3>
-          </div>
-        </div>
-      </ProjectPopUp>
 
       <AchievementsPopUp
         onClose={closeAchievementsPopUpHandler}

@@ -282,11 +282,11 @@ function App() {
       <ProjectPopUp
         onClose={closeProjectPopUpHandler}
         show={visibilityProjectPopUp}
-        title="Project"
+        title="All Current Tasks"
       >
         <div>
           <div className="pick-task-content">
-            <h3></h3>
+            <h3>HEY HEY HEY</h3>
           </div>
         </div>
       </ProjectPopUp>
@@ -294,7 +294,7 @@ function App() {
       <AchievementsPopUp
         onClose={closeAchievementsPopUpHandler}
         show={visibilityAchievementPopUp}
-        title="Achievements (2021 onwards only)"
+        title="All Current Tasks"
       >
         <div>
           <div className="pick-task-content">

@@ -228,7 +228,8 @@ function App() {
           <div className="all-projects">
             <Grid container rowSpacing={6} columnSpacing={0}>
               {ProjectsData.map((Project, i) => (
-                <Grid item xs={6} md={4}>
+                <div>
+                                  <Grid item xs={6} md={4}>
                   <motion.div
                     // drag
                     // dragConstraints = {{top: -50, left: -50, right: 50, bottom: 50,}}
@@ -260,6 +261,8 @@ function App() {
                     </div>
                   </motion.div>
                 </Grid>
+                </div>
+
               ))}
             </Grid>
           </div>
@@ -278,18 +281,6 @@ function App() {
           </Grid>
         </div>
       </section>
-
-      <ProjectPopUp
-        onClose={closeProjectPopUpHandler}
-        show={visibilityProjectPopUp}
-        title="Project"
-      >
-        <div>
-          <div className="pick-task-content">
-            <h3></h3>
-          </div>
-        </div>
-      </ProjectPopUp>
 
       <AchievementsPopUp
         onClose={closeAchievementsPopUpHandler}

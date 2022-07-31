@@ -279,18 +279,6 @@ function App() {
         </div>
       </section>
 
-      <ProjectPopUp
-        onClose={closeProjectPopUpHandler}
-        show={visibilityProjectPopUp}
-        title="Project"
-      >
-        <div>
-          <div className="pick-task-content">
-            <h3></h3>
-          </div>
-        </div>
-      </ProjectPopUp>
-
       <AchievementsPopUp
         onClose={closeAchievementsPopUpHandler}
         show={visibilityAchievementPopUp}
