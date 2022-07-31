@@ -29,8 +29,6 @@ import Tools from "./images/about-me/tools.gif";
 import Projects from "./images/projects-section/projects.gif";
 import Contact from "./images/contact/contact.gif";
 
-import { currentProjectState } from "../atoms/currentProjectState";
-
 function App() {
   const [visibilityProjectPopUp, setVisibilityProjectPopUp] = useState(false);
   const [visibilityAchievementPopUp, setVisibilityAchievementPopUp] =
