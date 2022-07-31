@@ -160,9 +160,6 @@ function App() {
                           src={AchievementsLogo}
                           className="about-me-logo"
                           alt="Achievements Logo"
-                          onClick={(e) =>
-                        setVisibilityAchievementPopUp(!visibilityAchievementPopUp)
-                      }
                         />
                       </Tooltip>
                     </div>{" "}
@@ -220,9 +217,7 @@ function App() {
             <Grid container rowSpacing={6} columnSpacing={0}>
               {ProjectsData.reverse().map((Project, i) => (
                 <Grid item xs={6} md={4}>
-                  <div className="project-box" onClick={(e) =>
-                        setVisibilityProjectPopUp(!visibilityProjectPopUp)
-                      }>
+                  <div className="project-box">
                     <img
                       src={Project.header}
                       className="project-header-image"

@@ -3,10 +3,8 @@ import "./App.css";
 import { Link } from "react-router-dom";
 import { Tooltip, Grid } from "@mui/material";
 import { motion } from "framer-motion";
-import { useState } from "react";
 
-import ProjectPopUp from "./components/project-pop-up.js";
-import AchievementsPopUp from "./components/achievements-pop-up.js";
+import ProjectPopUp from "./project-pop-up.js"
 
 import ProjectsData from "./data/projectsData";
 import AchievementsData from "./data/achievementsData";
@@ -160,9 +158,6 @@ function App() {
                           src={AchievementsLogo}
                           className="about-me-logo"
                           alt="Achievements Logo"
-                          onClick={(e) =>
-                        setVisibilityAchievementPopUp(!visibilityAchievementPopUp)
-                      }
                         />
                       </Tooltip>
                     </div>{" "}
@@ -220,9 +215,7 @@ function App() {
             <Grid container rowSpacing={6} columnSpacing={0}>
               {ProjectsData.reverse().map((Project, i) => (
                 <Grid item xs={6} md={4}>
-                  <div className="project-box" onClick={(e) =>
-                        setVisibilityProjectPopUp(!visibilityProjectPopUp)
-                      }>
+                  <div className="project-box">
                     <img
                       src={Project.header}
                       className="project-header-image"

@@ -3,13 +3,8 @@ import "./App.css";
 import { Link } from "react-router-dom";
 import { Tooltip, Grid } from "@mui/material";
 import { motion } from "framer-motion";
-import { useState } from "react";
-
-import ProjectPopUp from "./components/project-pop-up.js";
-import AchievementsPopUp from "./components/achievements-pop-up.js";
 
 import ProjectsData from "./data/projectsData";
-import AchievementsData from "./data/achievementsData";
 
 import ProfilePhoto from "./images/header/profile-photo.png";
 import LinkedinLogo from "./images/header/linkedin-logo.png";
@@ -23,18 +18,6 @@ import Projects from "./images/projects-section/projects.gif";
 import Contact from "./images/contact/contact.gif";
 
 function App() {
-  const [visibilityProjectPopUp, setVisibilityProjectPopUp] = useState(false);
-  const [visibilityAchievementPopUp, setVisibilityAchievementPopUp] =
-    useState(false);
-
-  const closeProjectPopUpHandler = (e) => {
-    setVisibilityProjectPopUp(e);
-  };
-
-  const closeAchievementsPopUpHandler = (e) => {
-    setVisibilityAchievementPopUp(e);
-  };
-
   return (
     <div className="App">
       <header className="full-section">
@@ -160,9 +143,6 @@ function App() {
                           src={AchievementsLogo}
                           className="about-me-logo"
                           alt="Achievements Logo"
-                          onClick={(e) =>
-                        setVisibilityAchievementPopUp(!visibilityAchievementPopUp)
-                      }
                         />
                       </Tooltip>
                     </div>{" "}
@@ -220,9 +200,7 @@ function App() {
             <Grid container rowSpacing={6} columnSpacing={0}>
               {ProjectsData.reverse().map((Project, i) => (
                 <Grid item xs={6} md={4}>
-                  <div className="project-box" onClick={(e) =>
-                        setVisibilityProjectPopUp(!visibilityProjectPopUp)
-                      }>
+                  <div className="project-box">
                     <img
                       src={Project.header}
                       className="project-header-image"
@@ -240,14 +218,18 @@ function App() {
                   </div>
                 </Grid>
               ))}
-            </Grid>
+            </Grid>{" "}
           </div>
         </div>
       </section>
 
       <section id="contact-section" className="full-section">
         <div className="contact-content">
-          <img src={Contact} className="contact-gif" alt="Contact" />
+          <img
+            src={Contact}
+            className="contact-gif"
+            alt="Contact"
+          />
           <h1>Contact me!</h1>
           <Grid container spacing={2}>
             <Grid item xs={6} md={8}></Grid>
@@ -257,34 +239,6 @@ function App() {
           </Grid>
         </div>
       </section>
-
-      <ProjectPopUp
-        onClose={closeProjectPopUpHandler}
-        show={visibilityProjectPopUp}
-        title="All Current Tasks"
-      >
-        <div>
-          <div className="pick-task-content">
-            <h3>HEY HEY HEY</h3>
-          </div>
-        </div>
-      </ProjectPopUp>
-
-      <AchievementsPopUp
-        onClose={closeAchievementsPopUpHandler}
-        show={visibilityAchievementPopUp}
-        title="All Current Tasks"
-      >
-        <div>
-          <div className="pick-task-content">
-            {AchievementsData.reverse().map((Achievement, i) => (
-              <div>
-                <h1>{Achievement.title}</h1>
-              </div>
-            ))}
-          </div>
-        </div>
-      </AchievementsPopUp>
     </div>
   );
 }

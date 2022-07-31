@@ -1,4 +1,4 @@
-const achievementsData = [
+const achievementsData = {
     {
         id: 0,
         title: "placeholder1",
@@ -7,6 +7,6 @@ const achievementsData = [
         id: 1,
         title: "placeholder2",
     },
-];
+};
 
 export default achievementsData;

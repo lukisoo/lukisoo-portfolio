@@ -160,9 +160,6 @@ function App() {
                           src={AchievementsLogo}
                           className="about-me-logo"
                           alt="Achievements Logo"
-                          onClick={(e) =>
-                        setVisibilityAchievementPopUp(!visibilityAchievementPopUp)
-                      }
                         />
                       </Tooltip>
                     </div>{" "}
