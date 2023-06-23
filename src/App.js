@@ -64,7 +64,7 @@ function App() {
                 whileInView={{ y: ["-2000px", "0px", "-50px", "0px"] }}
               >
                 <h2>Hey there, I'm Lucy Zhu.</h2>
-                <p>Please excuse the messy site, it's still in progress!</p>
+                <p>Please excuse the messy site, it's still in progress! Last updated: July 2022</p>
               </motion.div>
             </Grid>
             <Grid item xs={12} md={12}>
